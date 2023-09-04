@@ -9,7 +9,6 @@ body {
   font-size: 1.2rem;
   font-family: 'Work Sans', sans-serif;
   /* min-height: 4000px; */
-  overflow-x: hidden;
 }
 .hero::before {
   content: '';
@@ -223,6 +222,10 @@ body {
   .mynavbar .nav-link {
     font-size: 2rem;
     text-align: center;
+  }
+
+  .sticky-top {
+    overflow: hidden;
   }
 }
 
